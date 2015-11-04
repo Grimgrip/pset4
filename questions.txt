@@ -1,0 +1,19 @@
+0.  BMP supports 4 billion colors. GIF supports 256 colors. JPEG supports 16.7 million colors. PNG supports 16 million colors. 
+1.  GIF supports animation.
+2.  The difference between lossy and lossless compression is that
+3.  JPEG is lossy-compressed.
+4.  The file is not actually deleted. The meta data/address table that pointed to that specific information is just overwritten.
+5.  Overwrite data so the original information can not be recovered.
+6.  A head file that declares a number of ints that each have specified length.
+7.  Each of these represents an unsigned int of a cerain length.
+8.  BYTE, 8 bytes. DWORD, 32 bytes. LONG, 32 bytes. WORD, 16 bytes.
+9.  First two bytes declares bfType (file type).
+10. bfSize denotes the size of the BMP file. biSize denotes the size of the struct in bytes.
+11. A negative biHeight indicates that the file goes from the top to the bottom. Begins at the top left.
+12. biBitCount.
+13. Arguments are probably missing. No input file or no output file, maybe both.
+14. Only reading one triple at a time.
+15. I haven't the faintest idea.
+16. Simply skips padding when reading a BMP file.
+17. Int const that denotes offset for fseek.
+18. Rob Bowden holding what appears to be a teddy bear? Or a cat? Not sure.
